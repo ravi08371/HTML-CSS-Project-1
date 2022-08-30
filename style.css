@@ -1,5 +1,5 @@
 body{
-    background-color: #8965a3;
+    background-color: #d4a7c7;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -9,13 +9,13 @@ body{
     display: flex;
     background: url('img1.jpg') 840px;
     justify-content: space-between;
-    width: 330px;
-    height: 620px;
+    width: 310px;
+    height: 600px;
     padding: 30px;
     /* align-content: flex-end; */
     border-radius: 15px;
     border: black 2px;
-    /* box-shadow: unset 150px violet; */
+    box-shadow: 5px 5px 10px #000000;
     
 }
 
@@ -44,9 +44,9 @@ P{
     /* padding-bottom: 10px; */
     border-radius: 4px;
     border-color: gray;
-    box-shadow: darkgray 20px;
+    box-shadow: rgb(95, 91, 91) 20px;
     margin-bottom: 0%;
-    margin-top: auto;
+    margin-top: auto;   
     margin-right: auto;
     margin-left: auto;
     
@@ -61,24 +61,35 @@ P{
     margin-top: auto;
 }
 
-
-
-a:link{
+#tab div{
+    transition:transform 0.5s;
+}
+#tab div:hover{
     
-    color: black;
+    transform: translateY(-5px);
+    
+    
+}
+#tab a:hover{
+    color: brown;
+}
+
+
+ a:link{
+    
+    color: rgb(0, 0, 0);
     text-decoration: none;
     text-align: center;
+    font-size: 18px;
+   font-weight: 400;
+   
 }
-a:hover{
-    color:crimson;
-    font-size: larger;
-    text-decoration: none;
-}
+
 a:visited{
     text-decoration: none;
     color: black;
 }
-a:active{
+#tab a:active{
     text-decoration: none;
     color:darkmagenta ;
-}
+} */ 
